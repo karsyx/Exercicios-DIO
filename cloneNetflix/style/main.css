@@ -1,0 +1,190 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*base*/
+
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+header .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*Main Film*/
+
+.mainFilm{
+  font-size: 20px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/back_interstellar2.jpg');
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  height: 500px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainBlack{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/blackBack.jpg');
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    height: 500px;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainLoki{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/lokiBack.jpg');
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    height: 500px;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainFilm .description{
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.mainBlack .description{
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.mainLoki .description{
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.title{
+    margin-left: 10px;
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttom{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    margin-left: 10px;
+    padding: 15px 50px;
+    margin-right: 15px;
+    font-size: 20px;
+    
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.buttom:hover{
+    background-color: white;
+    color: black;
+}
+
+.buttom i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.mainFilm .top{
+    width: 60%;
+}
+
+.box-films{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.original{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yourList{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.films{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.series{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ops{
+    margin-top: 30%;
+    text-align: center;
+}

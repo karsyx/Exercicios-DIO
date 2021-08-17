@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <title>Gatoflix</title>
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h2 class="logo" onclick="homeRedirect()">GATOFLIX</h2>
+            <nav>
+                <a href="series.html">Series</a>
+                <a href="films.html">Films</a>
+                <a href="documentaries.html">Documentaries</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="mainLoki">
+            <div class="top">
+                <h3 class="title">LOKI</h3>
+                <p class="description">They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.</p>
+            </div>
+                <div class="buttons">
+                    <button role="button" class="buttom" onclick="buttonPlay()">
+                        <i class="fas fa-play"></i>
+                        WATCH NOW
+                    </button>
+                    <button role="button" class="buttom" onclick="detailsLoki()">
+                        <i class="fas fa-info-circle"></i>
+                        DETAILS
+                    </button>
+                </div>
+        </div>
+    </main>
+
+    <div class="carousel">
+        <h4 class="series">All Series</h4>
+        <div class="owl-carousel owl-theme">
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini1.jpg" alt="">
+            </div>
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini5.jpg" alt="">
+            </div>
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini7.jpg" alt="">
+            </div>
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini11.jpg" alt="">
+            </div>
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini14.jpg" alt="">
+            </div>
+            <div class="item" onclick="buttonPlay()">
+                <img class="box-films" src="/img/mini15.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="films">
+        <h4>Horror</h4>
+        <p>In progress...</p>
+    </div>
+
+    <div class="films">
+        <h4>Romance</h4>
+        <p>In progress...</p>
+    </div>
+
+    <div class="films">
+        <h4>Action</h4>
+        <p>In progress...</p>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</body>
+</html>
